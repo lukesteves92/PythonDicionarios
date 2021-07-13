@@ -12,3 +12,7 @@ print(usuarios)
 usuarios["florinda"] = ["Dona Florinda", "24/12/2015", "Cafe_01"]
 
 print(usuarios)
+
+print("####-----####")
+
+print(usuarios.get("florinda"))
