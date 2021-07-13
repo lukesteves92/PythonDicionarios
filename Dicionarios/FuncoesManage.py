@@ -4,3 +4,7 @@ def perguntar():
           "<P> - Para Pesquisar um usuário\n" +
           "<E> - Para Excluir um usuário\n" +
           "<L> - Para Listar um usuário:\n").upper()
+def inserir(dicionario):
+    dicionario[input("Digite o login:").upper()] = [input("Digite o nome:").upper(),
+                                                  input("Digite a última data de acesso:").upper(),
+                                                  input("Qual a última estação acessada").upper()]
